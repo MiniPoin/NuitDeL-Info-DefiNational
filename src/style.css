@@ -20,22 +20,21 @@ body {
     position: absolute;
     top: 0.25rem;
     left: 5.25rem;
-    border: 2px dashed blue;
+    font-size: 50px;
 }
 
 .INTRO h2 {
     position: absolute;
     top: 15vh;
-    border: 2px dashed red;
 }
 
 .INTRO h3 {
     position: absolute;
     top: 20vh;
-    border: 2px dashed red;
 }
 
 .INTRO img {
+    z-index: 1;
     position: absolute;
     top: 40vh;
     height: 25%;
@@ -46,7 +45,7 @@ body {
     top: 85vh;
     left: 6rem;
     right: 6rem;
-    border: 2px dashed yellow;
+    font-size: 20px;
 }
 
 .QUOI {
@@ -60,15 +59,15 @@ body {
 .QUOI h3 {
     position: absolute;
     top: 2vh;
-    border: 2px dashed red;
+    font-size: 50px;
 }
 
 .QUOI p {
     position: absolute;
-    top: 50vh;
+    top: 25vh;
     left: 6rem;
     right: 60rem;
-    border: 2px dashed yellow;
+    font-size: 75px;
 }
 
 .QUOI ul {
@@ -76,7 +75,7 @@ body {
     top: 25vh;
     left: 60rem;
     right: 6rem;
-    border: 2px dashed yellow;
+    font-size: 45px;
 }
 
 .EXPLI {
@@ -90,7 +89,7 @@ body {
 .EXPLI h3 {
     position: absolute;
     bottom: 5vh;
-    border: 2px dashed red;
+    font-size: 100px;
 }
 
 .EXPLI .T {
@@ -99,23 +98,26 @@ body {
     position: absolute;
     top: 10rem;
     left: 5rem;
-    border: 2px dashed blue;
+    width: 25%;
+    font-size: 30px;
 }
 
 .EXPLI .U {
     list-style-type: none;
     position: absolute;
     top: 10rem;
-    left: 40rem;
-    border: 2px dashed blue;
+    left: 45rem;
+    width: 25%;
+    font-size: 30px;
 }
 
 .EXPLI .P {
     list-style-type: none;
     position: absolute;
     top: 10rem;
-    left: 70rem;
-    border: 2px dashed blue;
+    left: 85rem;
+    width: 25%;
+    font-size: 30px;
 }
 
 .DEROU {
@@ -128,38 +130,41 @@ body {
 
 .DEROU h3 {
     position: absolute;
-    top: 5vh;
-    border: 2px dashed red;
+    top: 2vh;
+    font-size: 60px;
 }
 
-.DEROU P {
+.DEROU #PAR {
     position: absolute;
-    top: 10vh;
-    border: 2px dashed red;
+    top: 15vh;
+    font-size: 40px;
 }
 
 .DEROU .T {
     text-decoration: n;
     position: absolute;
-    top: 10rem;
-    left: 15rem;
-    border: 2px dashed blue;
+    top: 25rem;
+    left: 5rem;
+    width: 25%;
+    font-size: 30px;
 }
 
 .DEROU .U {
     text-decoration: n;
     position: absolute;
-    top: 10rem;
-    left: 50rem;
-    border: 2px dashed blue;
+    top: 25rem;
+    left: 45rem;
+    width: 25%;
+    font-size: 30px;
 }
 
 .DEROU .P {
     text-decoration: n;
     position: absolute;
-    top: 10rem;
+    top: 25rem;
     left: 85rem;
-    border: 2px dashed blue;
+    width: 25%;
+    font-size: 30px;
 }
 
 .QUIZ {
