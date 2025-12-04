@@ -1,10 +1,180 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    background-color: #01161E;
+    background-color: #964484;
     color: #EFF6E0;
-    text-align: center;
     font-family: "Roboto", sans-serif;
     margin: 0;
     padding: 0;
+}
+
+.INTRO {
+    background-color: #01161E;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.INTRO h1 {
+    position: absolute;
+    top: 0.25rem;
+    left: 5.25rem;
+    border: 2px dashed blue;
+}
+
+.INTRO h2 {
+    position: absolute;
+    top: 15vh;
+    border: 2px dashed red;
+}
+
+.INTRO h3 {
+    position: absolute;
+    top: 20vh;
+    border: 2px dashed red;
+}
+
+.INTRO img {
+    position: absolute;
+    top: 40vh;
+    height: 25%;
+}
+
+.INTRO p {
+    position: absolute;
+    top: 85vh;
+    left: 6rem;
+    right: 6rem;
+    border: 2px dashed yellow;
+}
+
+.QUOI {
+    background-color: #598392;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.QUOI h3 {
+    position: absolute;
+    top: 2vh;
+    border: 2px dashed red;
+}
+
+.QUOI p {
+    position: absolute;
+    top: 50vh;
+    left: 6rem;
+    right: 60rem;
+    border: 2px dashed yellow;
+}
+
+.QUOI ul {
+    position: absolute;
+    top: 25vh;
+    left: 60rem;
+    right: 6rem;
+    border: 2px dashed yellow;
+}
+
+.EXPLI {
+    background-color: #01161E;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.EXPLI h3 {
+    position: absolute;
+    bottom: 5vh;
+    border: 2px dashed red;
+}
+
+.EXPLI .T {
+    list-style-type: none;
+    text-decoration: n;
+    position: absolute;
+    top: 10rem;
+    left: 5rem;
+    border: 2px dashed blue;
+}
+
+.EXPLI .U {
+    list-style-type: none;
+    position: absolute;
+    top: 10rem;
+    left: 40rem;
+    border: 2px dashed blue;
+}
+
+.EXPLI .P {
+    list-style-type: none;
+    position: absolute;
+    top: 10rem;
+    left: 70rem;
+    border: 2px dashed blue;
+}
+
+.DEROU {
+    background-color: #124559;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.DEROU h3 {
+    position: absolute;
+    top: 5vh;
+    border: 2px dashed red;
+}
+
+.DEROU P {
+    position: absolute;
+    top: 10vh;
+    border: 2px dashed red;
+}
+
+.DEROU .T {
+    text-decoration: n;
+    position: absolute;
+    top: 10rem;
+    left: 15rem;
+    border: 2px dashed blue;
+}
+
+.DEROU .U {
+    text-decoration: n;
+    position: absolute;
+    top: 10rem;
+    left: 50rem;
+    border: 2px dashed blue;
+}
+
+.DEROU .P {
+    text-decoration: n;
+    position: absolute;
+    top: 10rem;
+    left: 85rem;
+    border: 2px dashed blue;
+}
+
+.QUIZ {
+    background-color: #EFF6E0;
+    color: #598392;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.QUIZ #BTN {
+    position: absolute;
+    top: 85vh;
+    left: 6rem;
+    right: 6rem;
+    border: 2px dashed yellow;
 }
