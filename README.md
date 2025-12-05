@@ -15,9 +15,11 @@ Le sujet étant large, nous avons décider de faire un site de présentation ave
 
 ## Hidden Snake :
 
-bla
+Pour pouvoir accéder au Hiden Snake il suffit de trouver le "s" vert et souligné, caché dans la page d'acceuille !
 
-bla
+Si jamais vous ne trouvez toujours pas, voici dans quel paragraphe il est caché :
+
+"Les grandes idées derrière la démarche"
 
 ## La faille la plus maligne :
 
