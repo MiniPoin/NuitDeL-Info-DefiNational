@@ -4,15 +4,26 @@
 <meta charset="UTF-8">
 <title>Login</title>
     <link rel="stylesheet" href="log.css">
+    <link rel="stylesheet" href="../nav.css" />
 </head>
 <body class="login">
+
+<div class="Nav">
+    <div class="logo">Gurt : Yo ?</div>
+    <nav id="Liens">
+        <a href="../index.html">Accueil</a>
+        <a href="../quizz/index.html">Quiz</a>
+        <a href="login.html">Log In [ADMIN ONLY]</a>
+        <a href="https://tenor.com/fr/view/chudjak-gif-4445488325267894501">JSP</a>
+    </nav>
+</div>
 
 <div class="login-box">
     <h2>Connexion au serveur hyper secret</h2>
     <input id="user" type="text" placeholder="Utilisateur">
     <input id="pass" type="password" placeholder="Mot de passe">
     <button onclick="login()">Se connecter</button>
-    <p id="error" style="color: red; margin-top:10px;"></p>
+    <p id="error" style="color: white; margin-top:10px;"></p>
 </div>
 
 <script>

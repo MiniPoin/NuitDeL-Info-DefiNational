@@ -51,13 +51,14 @@ button:hover {
 
 #terminal {
     background-color: rgba(39, 39, 39, 0.5);
-    text-align: center;
+    text-align: left;
     white-space: pre-wrap;
     font-size: 18px;
     border-radius: 5px;
+    font-weight: bold;
     box-shadow: 0 0 20px #0f0;
     border: 1px solid #0f0;
-    color: #F00;
+    color: white;
 }
 
 canvas {
