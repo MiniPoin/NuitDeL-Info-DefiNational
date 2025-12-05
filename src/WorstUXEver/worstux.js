@@ -36,10 +36,3 @@ document.addEventListener('keydown', function(event) {
     }
 });
 
-// Empêche l'utilisateur de cliquer ailleurs que sur l'input ou le bouton
-document.addEventListener('click', function(e) {
-    if (e.target !== volumePercentage && e.target !== playBtn && e.target !== video) {
-        e.preventDefault();
-        volumePercentage.focus();
-    }
-});

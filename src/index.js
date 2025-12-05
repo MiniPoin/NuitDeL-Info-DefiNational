@@ -1,1 +1,1 @@
-import './chatbot/index';
+import './chatbot/index.tsx';
