@@ -1,199 +1,81 @@
+body {
+    margin: 0;
+    padding-top: 60px;
+}
+
 .Nav {
     position: fixed;
-    top: 2rem;
-    right: 15rem;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #AEC3B0;
     z-index: 2;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px 10px;
+    height: 60px;
 }
 
-.MenuB {
-    font-size: 30px;
-    background-color: #AEC3B0;
-    color: #124559;
-    padding: 15px;
-    cursor: pointer;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.menu-toggle {
-    display: none;
-}
-
-#Liens {
-    display: none;
-    background-color: #AEC3B0;
-    position: absolute;
-    top: 5.1rem;
-    left: 100%;
-    transform: translateY(-50%);
-    width: 200px;
-    border-radius: 5px;
-}
-
-#Liens a {
-    display: block;
-    padding: 10px;
-    color: #124559;
+.Nav a {
     text-decoration: none;
-    border: 1px solid #AEC3B0;
-    border-radius: 5px;
-}
-
-#Liens a:hover {
-    background-color: #01161E;
-    color: #EFF6E0;
-    border: 1px solid #AEC3B0;
-    border-radius: 5px;
-}
-
-.menu-toggle:checked + #Liens {
-    display: block;
-}
-
-/*
-.Nav {
-    position: fixed;
-    top: 2rem;
-    right: 15rem;
-    z-index: 2;
-}
-
-.MenuB {
-    font-size: 30px;
-    background-color: #AEC3B0;
     color: #124559;
-    padding: 15px;
-    cursor: pointer;
-    display: inline-block;
-    border-radius: 5px;
-}
-
-.menu-toggle {
-    display: none;
-}
-
-#Liens {
-    display: none;
-    background-color: #AEC3B0;
-    position: absolute;
-    top: 50px;
-    right: 0;
-    width: 200px;
-    border-radius: 5px;
-    padding: 0;
-}
-
-#Liens a {
-    display: block;
+    font-size: 18px;
+    margin: 15px;
     padding: 10px;
-    color: #124559;
-    text-decoration: none;
-}
-
-#Liens a:hover {
-    background-color: #01161E;
-    color: #EFF6E0;
-    border: 1px solid #AEC3B0;
-    border-radius: 5px;
-}
-
-.menu-toggle:checked + #Liens {
-    display: flex;
-}
-
-
-
-/*
-.Nav {
-  background-color: #2158DE;
-  overflow: hidden;
-  display: block;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  z-index: 2;
-  border-bottom: 1px solid black; 
-}
-
-.Nav a , .MenuB{
-  float: right;
-  color: #FFFFFF;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
+    transition: background-color 0.3s;
 }
 
 .Nav a:hover {
-  background-color: #2FA7F7;
+    background-color: #01161E;
+    color: #EFF6E0;
+    border-radius: 5px;
 }
 
-.Nav img {
-  padding: 15px 0px 0px 15px;
-  width: 75px;
+.Nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #124559;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
 }
 
-@media screen and (max-width: 992px) {
-    .Nav a {
-        font-size: 14px;
-        padding: 10px 12px;
-    }
+#Liens {
+    display: flex;
+    align-items: center;
+    right: 20rem;
+}
+
+#Liens a {
+    display: block;
+    padding: 10px 20px;
+    color: #124559;
+    text-decoration: none;
+}
+
+#Liens a:hover {
+    background-color: #01161E;
+    color: #EFF6E0;
 }
 
 @media screen and (max-width: 768px) {
     .Nav {
-        display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
-        text-align: center;
-    }
-    .Nav a {
-        float: none;
-        display: block;
-        width: 100%;
-        padding: 10px;
-    }
-
-    .MenuB {
-        display: block;
+        justify-content: space-between;
     }
 
     #Liens {
-        position: fixed;
-        top: 0px;
-        right: -250px;
-        width: 250px;
-        height: 100vh;
-        background-color: #2158DE;
         display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        transition: right 0.3s ease-in-out;
-    }
-
-    #Liens.open {
-        right: 0;
+        width: auto;
     }
 
     #Liens a {
-        color: white;
-        font-size: 20px;
-        padding: 15px 0px;
-        text-decoration: none;
-        display: block;
-        width: 100%;
-        text-align: center;
+        padding: 10px 15px;
     }
 
-    #Liens a:hover {
-        background-color: #2FA7F7;
-    }
-
-    .Nav img {
-        padding: 10px 0px;
-        width: 75px;
+    .MenuB {
+        display: none;
     }
 }
