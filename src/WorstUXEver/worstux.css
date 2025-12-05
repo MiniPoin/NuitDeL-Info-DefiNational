@@ -1,11 +1,9 @@
 
-#floating-input {
+.floating-input {
     position: absolute;
     width: 20px;
     padding: 8px;
-    border: 2px solid red;
     border-radius: 4px;
-    background-color: white;
     z-index: 1001;
     pointer-events: auto;
 }
@@ -47,4 +45,10 @@ video::-moz-media-controls-volume-control-container {
     cursor: pointer;
     font-size: 16px;
     height: 60px; /* Pour aligner avec la vidéo */
+}
+
+
+p {
+    font-size: 1.5rem;
+    text-align: center;
 }

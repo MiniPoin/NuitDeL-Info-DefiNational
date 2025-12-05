@@ -1,9 +1,9 @@
 const video = document.getElementById('video');
 video.controls = false; /* Désactive les contrôles natifs dès le début */
 const playBtn = document.getElementById('playBtn');
-const input = document.getElementById('floating-input');
+const volumePercentage = document.getElementById('volume-percentage');
 let isTrackingMouse = true;
-input.style.display = "none";
+volumePercentage.style.display = "none";
 
 // Lecture forcée de la vidéo (sans pause possible)
 playBtn.addEventListener('click', function() {
@@ -11,12 +11,14 @@ playBtn.addEventListener('click', function() {
     if (video.paused) {
         video.play();
     }
-    input.style.display = "block";
+    volumePercentage.style.display = "block";
     document.addEventListener('mousemove', function(e) {
         if (!isTrackingMouse) return;
-        input.style.left = e.clientX + 'px';
-        input.style.top = e.clientY + 'px';
-        video.volume = (e.clientX / window.innerWidth); // Volume entre 0 et 1
+            volumePercentage.style.left = (e.clientX+10) + 'px';
+            volumePercentage.style.top = (e.clientY+10) + 'px';
+            video.volume = (((e.clientX + e.clientY) % 100) / 100);
+            volumePercentage.textContent = Math.round(video.volume * 100) + '%';
+            console.log(video.volume);
     });
 
 });
@@ -30,15 +32,14 @@ document.addEventListener('keydown', function(event) {
         //
         isTrackingMouse = false;
         console.log("Suivi du curseur désactivé !");
-        input.style.display = "none";
-        video.paused();
+        volumePercentage.style.display = "none";
     }
 });
 
 // Empêche l'utilisateur de cliquer ailleurs que sur l'input ou le bouton
 document.addEventListener('click', function(e) {
-    if (e.target !== input && e.target !== playBtn && e.target !== video) {
+    if (e.target !== volumePercentage && e.target !== playBtn && e.target !== video) {
         e.preventDefault();
-        input.focus();
+        volumePercentage.focus();
     }
 });

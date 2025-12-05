@@ -3,11 +3,22 @@
 <head>
     <title>La Nuit De l'INFO, Site web OFFICIEUX !</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../nav.css">
     <link rel="stylesheet" href="worstux.css">
 </head>
 
 <body>
 
+<div class="Nav">
+    
+    <div class="logo">Gurt : Yo ?</div>
+
+    <nav id="Liens">
+        <a href="./index.html">Accueil</a>
+        <a href="./quizz/index.html">Quiz</a>
+        <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0&list=RDxvFZjo5PgG0&start_radio=1">JSP</a>
+    </nav>
+</div>
     <!-- Conteneur pour la vidéo et le bouton Play -->
     <div class="video-container">
         <button id="playBtn">Play</button>
@@ -18,8 +29,11 @@
     </div>
 
     <!-- Input flottant -->
-    <input type="range" id="floating-input" min="0" max="100" value="67" autofocus>
-
+    <span id="volume-percentage" class="floating-input">67%</span>
+    
+    <p>Bonne chance pour trouver le bon spot pour le son !</p>
+    <br>
+    <p>Bonne chance aussi pour trouver comment arreter le changement de son ;) !</p>
 
 
     <script src="worstux.js"></script>    
