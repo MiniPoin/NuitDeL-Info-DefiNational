@@ -34,4 +34,4 @@ Une page web avec une petite vidéo interessante concernant le projet est dispon
 
 ## Chatbot : 
 
-Après un manque de ressource par l'hebergeur, l'entiereté de ce défis à était deposer sur un autre github disponible ici : 
+Après un manque de ressource par l'hebergeur, l'entiereté de ce défis à était deposer sur un autre github disponible ici : https://github.com/IsmaelBe/ChatBot
