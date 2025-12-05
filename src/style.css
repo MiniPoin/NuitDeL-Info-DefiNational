@@ -19,7 +19,6 @@ body {
 .INTRO h1 {
     position: absolute;
     top: 0.25rem;
-    left: 5.25rem;
     font-size: 50px;
 }
 
@@ -224,4 +223,180 @@ body {
     left: 6rem;
     right: 6rem;
     border: 2px dashed yellow;
+}
+
+
+@media (max-width: 1080px) {
+    .INTRO h1 {
+        font-size: 35px;
+    }
+    .INTRO h2 {
+        top: 10vh;
+        font-size: 30px;
+    }
+    .INTRO h3 {
+        top: 15vh;
+        font-size: 30px;
+    }
+    .INTRO img {
+        top: 50vh;
+        height: 20%;
+    }
+    .INTRO p {
+        top: 80vh;
+        left: 2rem;
+        right: 2rem;
+        font-size: 16px;
+    }
+
+    .QUOI h3 {
+        top: 2vh;
+        font-size: 35px;
+    }
+    .QUOI p {
+        top: 10vh;
+        left: 2rem;
+        right: 2rem;
+        font-size: 50px;
+    }
+    .QUOI ul {
+        top: 40vh;
+        left: 2rem;
+        right: 2rem;
+        font-size: 30px;
+    }
+
+    .EXPLI h3 {
+        top: 0rem;
+        font-size: 40px;
+    }
+    .EXPLI .T{
+        top: 10rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .EXPLI .U{
+        top: 25rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .EXPLI .P {
+        top: 40rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .DEROU h3 {
+        top: 2vh;
+        font-size: 40px;
+    }
+    .DEROU #PAR {
+        top: 15vh;
+        font-size: 30px;
+    }
+    .DEROU .T{
+        top: 15rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .DEROU .U {
+        top: 25rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .DEROU .P {
+        top: 42.5rem;
+        left: 2rem;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .QUIZ h3 {
+        top: 2vh;
+        font-size: 40px;
+    }
+    .QUIZ .EX {
+        top: 20vh;
+        left: 2rem;
+        right: 25rem;
+        font-size: 25px;
+    }
+    .QUIZ h4 {
+        top: 35vh;
+        right: 2rem;
+        font-size: 25px;
+    }
+    .QUIZ .LIP {
+        top: 45vh;
+        right: 10rem;
+        font-size: 25px;
+    }
+    .QUIZ .LIL {
+        top: 50vh;
+        right: 2rem;
+        font-size: 25px;
+    }
+    .QUIZ .FEUR {
+        top: 67vh;
+        left: 2rem;
+        right: 2rem;
+        font-size: 20px;
+    }
+    .QUIZ #BTN {
+        top: 75vh;
+        left: 2rem;
+        right: 2rem;
+        border: 2px dashed yellow;
+    }
+}
+
+@media (max-width: 768px) {
+    .INTRO h1 {
+        font-size: 30px;
+    }
+    .INTRO h2 {
+        top: 10vh;
+        font-size: 25px;
+    }
+    .INTRO h3 {
+        top: 20vh;
+        font-size: 20px;
+    }
+    .INTRO img {
+        top: 40vh;
+        height: 15%;
+    }
+
+    .EXPLI h3 {
+        font-size: 30px;
+    }
+    .EXPLI .T{
+        width: 90%;
+    }
+
+    .EXPLI .U{
+        width: 90%;
+    }
+
+    .EXPLI .P {
+        width: 90%;
+    }
+
+    .DEROU .T{
+        width: 90%;
+    }
+
+    .QUIZ .EX {
+        top: 10vh;
+    }
+
 }
