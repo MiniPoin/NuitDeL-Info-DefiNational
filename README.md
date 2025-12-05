@@ -32,7 +32,7 @@ Un petit indice pour trouver la faille :
 
 ## L'ergnomie : simplifier pour mieux vivre
 
-Une page web avec une petite vidéo interessante concernant le projet est disponible depuis la barre de navigation mais etrangement cette page est très mal adapté au public, elle est tout simplement difficile est très enervante d'utilisation.
+Une page web avec une petite vidéo interessante concernant le projet est disponible depuis la barre de navigation mais etrangement cette page est très mal adapté au public, elle est tout simplement difficile est très enervante d'utilisation aux nombreuses erreurs d'ergonomie.
 
 ## Chatbot : 
 
