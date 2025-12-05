@@ -8,6 +8,17 @@
 
 <body>
 	<div id="nav_place"></div>
+    <div class="Nav">
+        <label for="menu-toggle" class="MenuB">Menu ☰</label>
+        <input type="checkbox" id="menu-toggle" class="menu-toggle">
+        
+        <nav id="Liens">
+            <a href="index.html">Accueil</a>
+            <a href="./quizz/index.html">Quiz</a>
+            <a href="https://tenor.com/fr/view/chudjak-gif-4445488325267894501">JSP</a>
+        </nav>
+    </div>
+
     <div class="INTRO">
         <h1>Bienvenue sur notre site de la nuit de l'info</h1>
         <h2>Nous allons d'abord vous presenter ce qu'est le NIDR.</h2>
@@ -103,11 +114,4 @@
             <p>lien du quiz !</p>
         </div>
     </div>
-    <script>
-	    fetch('nav.html')
-	    	.then(res => res.text())
-	    	.then(data => {
-	    		document.getElementById('nav_place').innerHTML = data;
-      	});	
-    </script>
 </body>
