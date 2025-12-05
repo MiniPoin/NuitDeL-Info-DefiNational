@@ -1,0 +1,50 @@
+
+#floating-input {
+    position: absolute;
+    width: 20px;
+    padding: 8px;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: white;
+    z-index: 1001;
+    pointer-events: auto;
+}
+
+/* Conteneur pour la vidéo et le bouton Play */
+.video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    gap: 10px; /* Espace entre la vidéo et le bouton */
+}
+
+/* Style pour la vidéo */
+#video {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 640px;
+    background-color: black;
+}
+
+/* Masquer les contrôles de volume natifs */
+video::-webkit-media-controls-volume-control-container {
+    display: none !important;
+}
+
+video::-moz-media-controls-volume-control-container {
+    display: none !important;
+}
+
+/* Style pour le bouton Play */
+#playBtn {
+    padding: 20px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 60px; /* Pour aligner avec la vidéo */
+}
